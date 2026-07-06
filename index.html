@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pag_style.css">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <header>
+        <h1>Previsão do Tempo</h1>
+    </header>
+
+    <section class="caixa-maior">
+        
+        <input class="input-cidade" type="text" placeholder="Digite o nome da cidade">
+        <button class="botao-busca" onclick="Clicar()">
+            <img class="img-busca" src="./images/search.png" alt="Buscar">
+        </button>
+
+        <div class="caixa-media">
+            <h2 id="cidade" class="cidade">Tempo em [nome da cidade]</h2>
+
+            <p class="temp">Temperatura: 0°C</p>
+
+            <div class="caixa-menor">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="texto-previsao">Condição Metereológica</p>
+            </div>
+
+            <p class="umidade">Umidade: 0%</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados<br>
+            Criando código, arte e ideias, à base de café.☕​😁​👍​<br>
+            © 2026 Miguel Dev<br>
+            Portfólio de Desenvolvimento Front-End.</p>
+    </footer>
+
+
+    <script src="pag_script.js"></script>
+</body>
+
+</html>
